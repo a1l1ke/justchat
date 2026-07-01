@@ -10,7 +10,8 @@
         <form method="post">
             <input type="text" name="message" /><br>
             <select name="model">
-                <option value="엄청난 모델">엄청난 모델</option>
+<%--                <option value="엄청난 모델">엄청난 모델</option>--%>
+                <option value="gemini-3.1-flash-lite">잼나이</option>
             </select>
             <input type="submit" value="전송" />
         </form>
